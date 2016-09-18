@@ -34,7 +34,7 @@ gem 'sdoc', '0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+# gem 'bcrypt', '3.1.7'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -45,3 +45,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+#rcvd an error when attempting to push to heroku:
+#An error occurred while installing sprockets-rails (2.3.3), and Bundler cannot
+#continue.  Make sure that `gem install sprockets-rails -v '2.3.3'` succeeds before
+#bundling.
+gem 'sprockets-rails', '2.3.3'
